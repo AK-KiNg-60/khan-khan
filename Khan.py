@@ -43,7 +43,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/AK-KiNg-60/aswadshahid/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/aswad-khan/khan-khan/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -279,7 +279,7 @@ def menu_s():
     elif ms == '2':
         choice_crack()
     elif ms == '3':
-        os.system('python2 .ok.py')
+        os.system('python2 ok.py')
     elif ms == '4':
         v_tok()
     elif ms == '5':
